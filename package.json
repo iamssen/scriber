@@ -1,19 +1,19 @@
 {
   "name": "scriber",
   "description": "...",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": {
-    "name": "Your name",
-    "email": "your@email.com",
-    "url": "https://your.github.io"
+    "name": "Lee Seoyeon",
+    "email": "i@ssen.name",
+    "url": "https://iamssen.github.io"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/yourid/scriber.git"
+    "url": "git://github.com/iamssen/scriber.git"
   },
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "dist/scriber.js",
+  "typings": "dist/scriber.d.ts",
   "scripts": {
     "build": "gulp build"
   },

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+
+		<script src="https://npmcdn.com/d3"></script>
+		<script src="https://npmcdn.com/marked"></script>
+		<script src="https://npmcdn.com/jquery"></script>
+		<script src="dist/scriber.js"></script>
+		<link rel="stylesheet" href="https://npmcdn.com/github-markdown-css/github-markdown.css"/>
+	</head>
+	<body>
+		<div id="output"></div>
+		<script>
+			scriber(function (d) {
+				d.h1('SCRIBER')
+				d.h2('GIST')
+				d.gist('b45fe34577eaa6713432')
+				d.gist('https://gist.github.com/iamssen/b45fe34577eaa6713432')
+				d.gist('<script src="https://gist.github.com/iamssen/b45fe34577eaa6713432.js"></sc' + 'ript>')
+				d.h2('JSFIDDLE')
+				d.jsfiddle('iamssen/95vjdyej/')
+				d.jsfiddle('https://jsfiddle.net/iamssen/95vjdyej/')
+				d.jsfiddle('<script async src="//jsfiddle.net/iamssen/kghbw17a/embed/"></scr' + 'ipt>')
+				d.h2('YOUTUBE')
+				d.youtube('https://www.youtube.com/watch?v=K8TSLDWpyhU')
+				d.youtube('https://youtu.be/wZiEtrdmHJg')
+				d.youtube('K8TSLDWpyhU')
+			}, document.getElementById('output'));
+		</script>
+	</body>
+</html>
